@@ -6,7 +6,7 @@ Slice an STL or 3MF for your 3D printer from a conversation with Claude. Claude 
 
 Ask for what you need with your printer's name: "slice this bracket for my Bambu Lab A1 in PETG, 0.2 mm layers, 30% infill", "which layer heights does my Ender-3 V3 SE profile allow?", or "prepare a slice for a Prusa MK4S, PLA, no supports". Claude calls the connector's `find_printer` tool for the profile facts and `prepare_slice` for the link, and tells you what is selected. Open the link, drop your STL or 3MF (up to 50 MB), check it in 3D, press **Slice and download**.
 
-Slicing uses SpeakCAD credits: it is included in the Pro and Unlimited plans and spends 5 credits per slice otherwise; re-slicing the same file with other settings within 10 minutes costs nothing. An account is needed on the page, and signing up asks for no card. The full guide is at https://speakcad.com/guides/slice-from-chatgpt-or-claude.
+Slicing is free: 3 slices a day in the chat without an account, then free with a free SpeakCAD account, up to 10 files a day (60 on a paid plan), no credits; re-slicing the same file with other settings within 24 hours does not count. An account is needed on the page, and signing up asks for no card. The full guide is at https://speakcad.com/guides/slice-from-chatgpt-or-claude.
 
 ## What the plugin contains
 
